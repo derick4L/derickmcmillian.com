@@ -1,0 +1,30 @@
+:root {
+  --floral-white: #fffcf2;
+  --pale-slate: #ccc5b9;
+  --black-olive: #403d39;
+  --eerie-black: #252422;
+  --flame: #eb5e28;
+  --white: #fff;
+}
+
+html {
+  background: var(--floral-white);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2 {
+  color: var(--eerie-black);
+}
+
+h3,
+h4 {
+  color: var(--black-olive);
+}
