@@ -1,3 +1,11 @@
+@import "../css/about.css";
+@import "../css/contact.css";
+@import "../css/portfolio.css";
+@import "../css/responsive.css";
+@import "../css/base.css";
+@import "../css/nav.css";
+@import "../css/experience.css";
+
 :root {
   --floral-white: #fffcf2;
   --pale-slate: #ccc5b9;
@@ -20,6 +28,14 @@ h4 {
 }
 
 h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1,
 h2 {
   color: var(--eerie-black);
 }
@@ -27,4 +43,30 @@ h2 {
 h3,
 h4 {
   color: var(--black-olive);
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  background: var(--floral-white);
+  padding: 0px 0px 0px 100%;
+  transition: all 0.4s cubic-bezier(1, 0.84, 0.44, 1);
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white);
+}
+a:hover {
+  color: var(--eerie-black);
 }
