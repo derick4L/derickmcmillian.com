@@ -1,0 +1,19 @@
+.portfolio-container {
+  padding: 0 0 35px 0;
+}
+
+.portfolio-item-group h2 {
+  padding: 23px 0 0 0;
+}
+
+.portfolio-images {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 80vw;
+  justify-content: space-between;
+  box-shadow: -5px 4px 0 var(--black-olive);
+}
+.web-applications-group img {
+  height: 470px;
+}
