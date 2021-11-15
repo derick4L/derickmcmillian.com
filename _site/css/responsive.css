@@ -9,6 +9,7 @@
   li:hover {
     background: var(--floral-white);
     transition: none;
+    padding: 10px;
   }
 
   .navigation {
