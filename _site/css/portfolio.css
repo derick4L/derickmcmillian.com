@@ -1,10 +1,27 @@
 .portfolio-container {
-  padding: 0 0 35px 0;
+  padding: 35px 0 35px 0;
+}
+
+.portfolio-skills-container h2,
+.portfolio-item-group h2 {
+  font-size: 45px;
 }
 
 .portfolio-skills-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+  justify-items: center;
+}
+
+.portfolio-skills-list p {
+  background: var(--black-olive);
+  text-align: center;
+  font-size: 25px;
+  color: var(--floral-white);
+  padding: 5px 0 5px 0;
+  width: 60%;
+  box-shadow: -5px 4px 0 var(--flame);
 }
 
 .portfolio-item-group h2 {

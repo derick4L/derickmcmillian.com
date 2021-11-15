@@ -63,9 +63,10 @@
   .portfolio-skills-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    font-size: 20px;
     text-align: center;
-    line-height: 1.6;
+  }
+  .portfolio-skills-list p {
+    font-size: 12px;
   }
 
   /* ABOUT STYLES */
