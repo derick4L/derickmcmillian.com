@@ -2,6 +2,11 @@
   padding: 0 0 35px 0;
 }
 
+.portfolio-skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .portfolio-item-group h2 {
   padding: 23px 0 0 0;
 }
