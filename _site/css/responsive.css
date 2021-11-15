@@ -1,0 +1,123 @@
+@media (min-width: 375px) and (max-width: 767px) {
+  body {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100vh !important;
+    margin: 0 !important;
+  }
+
+  .navigation {
+    padding: 0 !important;
+  }
+
+  .nav {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    width: 100% !important;
+    height: auto !important;
+    justify-items: center !important;
+    grid-row-gap: 10px !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+  }
+
+  main {
+    padding: 0 !important;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .base-container {
+    height: 712px;
+    justify-content: space-between;
+    display: grid;
+  }
+  .base-title,
+  .base-subtitle {
+    padding: 75px 0 0 5px;
+  }
+
+  /* PORTFOLIO STYLES */
+
+  .portfolio-container {
+    padding: 20px;
+  }
+
+  .portfolio-images {
+    flex-direction: column;
+    width: 88vw;
+  }
+  .portfolio-images img {
+    height: 320px;
+    width: auto;
+  }
+  .portfolio-item-group h2 {
+    padding-bottom: 15px;
+  }
+
+  .portfolio-skills-container h2,
+  .portfolio-item-group h2 {
+    font-size: 35px;
+  }
+
+  .portfolio-skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  /* ABOUT STYLES */
+
+  .about-container {
+    padding: 0;
+  }
+  .about-title {
+    color: var(--black-olive);
+    top: 150px;
+    left: 0;
+    padding: 0 0 0 10px;
+    font-size: 40px;
+  }
+  .about-title span {
+    padding: 0;
+  }
+  .about-container img {
+    font-size: 18px;
+    width: 375px;
+    padding: 0;
+    opacity: 0.7;
+  }
+  #title-over-text {
+    color: var(--black-olive);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .layout {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .layout2 {
+    width: 100vw;
+    flex-direction: column-reverse;
+  }
+  .paragraph {
+    width: auto;
+  }
+  /* CONTACT STYLES */
+  .contact-container {
+    width: 90%;
+  }
+  .contact-title {
+    text-align: end;
+    padding: 0 0 15px 0;
+  }
+  .contact-subtitle {
+    font-size: 24px;
+  }
+  .social-container {
+    text-align: center;
+    padding: 18px 0 0 0;
+  }
+}
