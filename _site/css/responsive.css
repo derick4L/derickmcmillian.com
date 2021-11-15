@@ -6,6 +6,11 @@
     margin: 0 !important;
   }
 
+  li:hover {
+    background: var(--floral-white);
+    padding: 0;
+  }
+
   .navigation {
     padding: 0 !important;
   }
