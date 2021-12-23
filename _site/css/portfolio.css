@@ -8,20 +8,28 @@
 }
 
 .portfolio-skills-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 8px;
-  justify-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
-.portfolio-skills-list p {
+.portfolio-graphics-skills {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.portfolio-skills-list p,
+.portfolio-graphics-skills p {
   background: var(--black-olive);
   text-align: center;
-  font-size: 25px;
+  font-size: 19px;
   color: var(--floral-white);
-  padding: 5px 0 5px 0;
-  width: 60%;
+  padding: 5px;
+  width: auto;
   box-shadow: -5px 4px 0 var(--flame);
+  flex-wrap: wrap;
 }
 
 .portfolio-item-group h2 {
@@ -29,13 +37,87 @@
 }
 
 .portfolio-images {
+  margin-top: 10px;
+}
+
+.portfolio-images,
+.portfolio-graphics,
+.portfolio-development {
   display: flex;
   flex-direction: row;
-  overflow-x: scroll;
-  width: 80vw;
-  justify-content: space-between;
-  box-shadow: -5px 4px 0 var(--black-olive);
+  flex-wrap: wrap;
+  width: 75vw;
+  justify-content: space-around;
 }
-.web-applications-group img {
-  height: 470px;
+.portfolio-graphics img {
+  border: 3px solid var(--black-olive);
+  margin-top: 8px;
+}
+.portfolio-graphics-detail p {
+  text-align: center;
+  font-size: 19px;
+  background: var(--black-olive);
+  margin-top: -5px;
+  padding: 6px;
+  color: var(--floral-white);
+}
+.portfolio-images-gif-container {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.portfolio-image-gif {
+  border: 3px solid var(--black-olive);
+  opacity: 0.67;
+}
+.portfolio-item-link {
+  position: absolute;
+  text-decoration: none;
+  background: var(--flame);
+  text-align: center;
+  font-size: 20px;
+  color: var(--floral-white);
+  width: 40%;
+  padding: 5px 0 5px 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 150px;
+}
+.portfolio-item-link:hover {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-item-detail {
+  display: flex;
+  height: 165px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portfolio-development {
+  margin-top: 15px;
+}
+.portfolio-development img {
+  margin-top: 15px;
+  border: 3px solid var(--black-olive);
+}
+.portfolio-development-detail {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+.portfolio-item-description {
+  margin-top: 15px;
+  text-align: center;
+  width: 450px;
+  font-size: 18px;
+}
+.portfolio-development-description {
+  margin-top: 15px;
+  text-align: center;
+  width: 610px;
+  font-size: 18px;
 }
