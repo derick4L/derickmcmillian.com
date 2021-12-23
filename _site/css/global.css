@@ -4,6 +4,7 @@
 @import "../css/responsive.css";
 @import "../css/base.css";
 @import "../css/nav.css";
+@import "../css/form.css";
 
 :root {
   --floral-white: #fffcf2;

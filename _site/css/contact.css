@@ -1,8 +1,10 @@
 .contact-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-around;
-  width: 60%;
+  width: 90%;
+  height: 350px;
+  align-items: center;
 }
 .contact-title {
   font-size: 40px;

@@ -28,19 +28,27 @@
   }
 
   .base-container {
-    height: 712px;
-    justify-content: space-between;
+    height: 80vh;
+    justify-content: space-around;
     display: grid;
-  }
-  .base-title,
-  .base-subtitle {
-    padding: 75px 0 0 5px;
+    padding: 20px;
   }
 
+  .base-container p {
+    font-size: 25px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .base-title {
+    align-self: center;
+  }
   /* PORTFOLIO STYLES */
 
   .portfolio-container {
     padding: 20px;
+    align-items: center;
   }
 
   .portfolio-images {
@@ -48,27 +56,62 @@
     width: 88vw;
   }
   .portfolio-images img {
-    height: 320px;
-    width: auto;
+    height: 200px;
   }
   .portfolio-item-group h2 {
     padding-bottom: 15px;
   }
+  .portfolio-item-detail {
+    margin-bottom: 20px;
+    height: auto;
+  }
 
+  .portfolio-item-link {
+    top: 85px;
+  }
   .portfolio-skills-container h2,
   .portfolio-item-group h2 {
     font-size: 35px;
   }
 
   .portfolio-skills-list {
+    margin-top: 6px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    width: auto;
   }
   .portfolio-skills-list p {
-    font-size: 12px;
+    font-size: 15px;
+  }
+  .portfolio-item-description {
+    width: 100%;
   }
 
+  .portfolio-graphics {
+    width: 100%;
+  }
+  .portfolio-graphics img {
+    height: 300px;
+  }
+  .portfolio-development {
+    width: 100%;
+  }
+  .portfolio-development img {
+    height: 160px;
+  }
+  .portfolio-development-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio-development-detail {
+    height: auto;
+  }
+  .portfolio-development-description {
+    width: 100%;
+  }
   /* ABOUT STYLES */
 
   .about-container {
@@ -111,6 +154,7 @@
     width: 90%;
   }
   .contact-title {
+    font-size: 35px;
     text-align: end;
     padding: 0 0 15px 0;
   }
