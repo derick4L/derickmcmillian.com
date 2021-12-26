@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 768px) {
   body {
     display: flex !important;
     flex-direction: column !important;
@@ -164,5 +164,15 @@
   .social-container {
     text-align: center;
     padding: 18px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-development-content {
+    display: grid;
+    place-items: center;
+  }
+  .portfolio-development-content img {
+    height: 280px;
   }
 }
