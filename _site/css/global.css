@@ -56,10 +56,6 @@ ul {
   list-style: none;
 }
 
-li {
-  padding: 5px;
-}
-
 li:hover {
   border-bottom: 4px solid var(--floral-white);
   transition: all 0.4s ease;

@@ -16,7 +16,6 @@ input {
   color: var(--floral-white);
   padding: 4px 0 4px 8px;
   font-size: 16px;
-  /* width: 280px; */
 }
 input:focus {
   outline: none;

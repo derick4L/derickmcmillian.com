@@ -33,10 +33,6 @@
   flex-wrap: wrap;
 }
 
-.portfolio-item-group h2 {
-  padding: 23px 0 0 0;
-}
-
 .portfolio-images {
   margin-top: 10px;
 }
@@ -66,6 +62,7 @@
   position: relative;
   display: grid;
   place-items: center;
+  margin: 0 0 15px 0;
 }
 .portfolio-image-gif {
   border: 3px solid var(--black-olive);
@@ -92,7 +89,6 @@
 }
 .portfolio-item-detail {
   display: flex;
-  height: 165px;
   flex-direction: column;
   justify-content: space-between;
 }

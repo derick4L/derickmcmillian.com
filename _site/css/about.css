@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 25px;
 }
 
 .about-container img {
@@ -69,7 +68,7 @@ span {
 }
 .paragraph {
   width: 650px;
-  padding: 55px 0 90px 30px;
+  padding: 55px 0 55px 20px;
   border-left: 5px solid var(--black-olive);
 }
 
@@ -81,8 +80,8 @@ span {
 .hobbies-group {
   display: flex;
   flex-direction: column;
-  height: 455px;
-  justify-content: space-around;
+  height: 345px;
+  justify-content: space-between;
 }
 .hobbies-group p {
   font-size: 20px;
