@@ -6,15 +6,30 @@ main {
   padding: 0px 0px 0px 22px;
 }
 
+.base-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.base-container img {
+  border: 3px solid var(--black-olive);
+  height: 670px;
+  object-fit: cover;
+}
+
 .base-title {
-  font-size: 80px;
+  font-size: 85px;
   margin: 0;
+  line-height: 1.1;
 }
 
 .base-subtitle {
   color: var(--white);
-  padding: 5px 0 8px 16px;
-  font-size: 45px;
+  padding: 8px;
+  font-size: 43px;
+  height: 55px;
   background: var(--black-olive);
 }
 
