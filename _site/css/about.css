@@ -12,6 +12,7 @@
 
 #title-over-text {
   color: var(--white);
+  padding: 0 20px 0 20px;
 }
 
 .about-title {
@@ -63,7 +64,7 @@
   opacity: 0.4;
 }
 
-span {
+.space {
   padding: 0 20px 0 20px;
 }
 .paragraph {
@@ -95,4 +96,7 @@ span {
 .layout p,
 .hobbies-group p {
   line-height: 1.75;
+}
+.italic {
+  font-style: italic;
 }
