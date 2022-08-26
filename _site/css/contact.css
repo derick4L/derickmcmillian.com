@@ -9,13 +9,10 @@
 .contact-title {
   font-size: 40px;
 }
-.contact-subtitle {
-  color: var(--white);
-  padding: 5px 5px 8px 0;
-  font-size: 30px;
-  background: var(--black-olive);
-  font-family: "Source Sans Pro";
-  text-align: end;
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .social-item:hover {
   opacity: 0.3;
