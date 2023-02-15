@@ -12,3 +12,8 @@
   height: 235px;
   justify-content: space-evenly;
 }
+
+.nav li:hover {
+  border-bottom: 4px solid var(--floral-white);
+  transition: all 0.4s ease;
+}
