@@ -1,114 +1,77 @@
-.about-container {
-  position: relative;
+.about-title-group {
+  margin: 0 0 0 100px;
+  height: 100%;
+  place-content: center;
   display: flex;
   flex-direction: column;
-}
-
-.about-container img {
-  height: 350px;
-  width: 370px;
-  box-shadow: -5px 4px 0 var(--eerie-black);
-}
-
-#title-over-text {
-  color: var(--white);
-  padding: 0 20px 0 20px;
 }
 
 .about-title {
-  top: 280px;
-  left: 90px;
-  position: absolute;
-  font-size: 50px;
-  margin: 0;
+  font-size: 72px;
+  margin: 0 100px 15px 0;
+  letter-spacing: -0.15rem;
+  text-align: end;
 }
+
 .about-content {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.layout,
-.layout2 {
-  display: flex;
   flex-direction: row;
-
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.layout h3,
-.layout2 h3 {
-  font-size: 60px;
-  padding: 15px;
-}
-.layout p {
-  padding: 0 25px 0 25px;
-  font-size: 19px;
+.about-content > .bullets {
+  min-width: 150px;
+  max-width: 650px;
 }
 
-.paragraph p::first-letter,
-.bullets li::first-letter {
+.bullets > p {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.bullets > p::first-letter {
   color: var(--white);
   background-color: var(--flame);
   border-radius: 1px;
   box-shadow: -5px 4px 0 var(--eerie-black);
-  font-size: 200%;
-  padding: 0px 10px;
-  margin-right: 6px;
-  float: left;
+  font-size: 30px;
+  padding: 0px 5px;
+  margin-right: 2px;
 }
 
-.hobby-link {
-  color: var(--flame);
-}
-
-#hobby-link:hover {
-  opacity: 0.4;
-}
-
-.space {
-  padding: 0 20px 0 20px;
-}
-.paragraph,
-.career-bullets {
-  width: 650px;
-  padding: 55px 0 55px 20px;
-  border-left: 5px solid var(--black-olive);
-}
-
-.bullets {
+.about-images-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.bullets li {
-  padding: 0 0 20px 20px;
-  font-size: 19px;
+.about-image {
+  border-radius: 8px;
+  box-shadow: -8px 7px 0 var(--flame);
 }
 
-.layout,
-.layout2 {
+.image-logo-container {
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  width: 100%;
+  align-items: baseline;
 }
 
-.hobbies-group {
-  display: flex;
-  flex-direction: column;
-  height: 345px;
-  justify-content: space-between;
-}
-.hobbies-group p {
-  font-size: 20px;
-  color: var(--white);
-  padding: 10px;
-  background: var(--black-olive);
-  width: 285px;
-  text-align: end;
+.security-plus-cert {
+  margin: 25px 0 0 0;
 }
 
-.layout p,
-.hobbies-group p {
-  line-height: 1.75;
+#military-job-description,
+#bottega-university-program {
+  color: var(--eerie-black);
+  text-decoration: underline;
 }
-.italic {
-  font-style: italic;
+
+#military-job-description:hover,
+#bottega-university-program:hover {
+  color: var(--flame);
 }

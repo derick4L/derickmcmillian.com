@@ -1,0 +1,82 @@
+.home-container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 10), rgba(0, 0, 0, 0.5)),
+    url("../assets/js-code.webp") center/cover no-repeat fixed;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.home-title-group {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  place-content: center;
+  margin-left: 100px;
+}
+
+.home-title-group > h2 {
+  color: var(--floral-white);
+}
+
+.home-title {
+  font-size: 85px;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -0.15rem;
+}
+
+.home-content {
+  padding: 13px 100px 0 0;
+  font-size: 25px;
+  color: var(--floral-white);
+  text-align: end;
+  line-height: 1.1;
+  letter-spacing: -0.08rem;
+}
+
+.home-subtitle {
+  padding: 0;
+  color: var(--white);
+  padding: 8px;
+  font-size: 28px;
+  height: 30px;
+  background: var(--black-olive);
+  position: relative;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.home-subtitle-item {
+  position: absolute;
+  white-space: nowrap;
+  max-width: fit-content;
+  overflow: hidden;
+}
+
+.home-subtitle-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--black-olive);
+  animation: slide 2s steps(16) infinite;
+  border-left: 2px solid var(--floral-white);
+}
+
+.home-subtitle-item > p {
+  font-family: "Inconsolata", monospace;
+}
+
+@keyframes slide {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}

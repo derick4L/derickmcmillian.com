@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Derick McMillian | Full Stack Developer</title>
-    <meta
-      name="description"
-      content="Personal Website of Derick McMillian  ."
-    />
+    <meta name="description" content="Personal Website of Derick McMillian." />
+    <title>Derick McMillian 🧑🏾‍💻 Professional Portfolio</title>
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,22 +16,206 @@
   <body>
     <header class="navigation">
       <ul class="nav">
-        <li class="nav-item"><a href="/">HOME</a></li>
-        <li id="nav-portfolio" class="nav-item">
-          <a href="/portfolio/">PORTFOLIO</a>
+        <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">PORTFOLIO</a>
         </li>
-        <li class="nav-item"><a href="/about/">ABOUT</a></li>
-        <li class="nav-item"><a href="/contact/">CONTACT</a></li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </li>
       </ul>
     </header>
     <main>
-      <section class="base-container">
-        <img src="/assets/profile.jpeg" alt="Derick enjoying a cider" />
-        <div class="base-title-group">
-          <h2 class="base-title">Derick McMillian</h2>
-          <p class="base-subtitle">Full Stack Developer</p>
+      <section class="home-container" id="home">
+        <div class="home-title-group">
+          <h2 class="home-title">Derick McMillian</h2>
+          <div class="home-subtitle">
+            <div class="home-subtitle-item">
+              <span class="home-subtitle-text">
+              </span>
+            </div>
+        </div>
+      </section>
+      <section class="about-container" id="about">
+        <div class="about-title-group">
+        <h2 class="about-title"><span>👋🏾</span>About Me</h2>
+        <div class="about-content">
+          <div class="bullets">
+            <p>
+              Growing up, I was always fascinated with technology.
+              As the eldest of seven, I was always the go-to person for setting up new devices, downloading software, and troubleshooting issues.
+              Sometimes, I hated being the only one with the "know-how," but this led me to pursue a career where I could be the solution.
+            </p>
+            <p>
+              So, in 2011, I started my journey in tech by enlisting in the U.S. Army as a <a id="military-job-description" href="https://www.goarmy.com/careers-and-jobs/career-match/signal-intelligence/locations-stats-frequencies/25u-signal-support-systems-specialist.html" target="_blank" rel="noreferrer" >Signal Support Systems Specialist (Military Occcupational Specialty: 25U)</a>.
+              I was responsible for establishing field and vehicular communications, including all equipment that sends or receives signals. 
+              You could say that I was the "IT guy" for many units.
+            </p>
+            <p>
+              In 2019, I attended <a id="bottega-university-program" href="https://bottega.edu/full-stack-development-certificate/" target="_blank" rel="noreferrer"> Bottega University's Full Stack Development program</a> to expand upon my interests.
+              Here, I developed the ability to learn JavaScript and bring ideas to fruition.
+              I could now build technology to solve problems and be the "end solution" for others.
+            </p>
+            <p>
+              I've held roles as a Systems Administrator, IT Support Specialist, and Software Engineer; solidifying my passion for technology.
+              Now, I apply my talents to continually learn and grow as a developer and IT professional.
+              Utilizing the principles I learned from Security+ and a variety of experiences, I strive to build secure, scalable, and reliable applications.
+            </p>
+          </div>
+          <div class="about-images-container">
+            <img
+              src="./assets/derick-profile.webp"
+              height="440px"
+              width="440px"
+              alt="Derick McMillian"
+              class="about-image"
+            />
+            <div class="image-logo-container">
+              <img
+                src="./assets/comptia-security-ce-certification.png"
+                height="65px"
+                width="auto"
+                alt="CompTIA Security+"
+                class="security-plus-cert"
+              />
+              <img
+              src="./assets/icons8-sergeant-sgt-96.png"
+              height="65px"
+              width="auto"
+              alt="Sergeant Rank (E-5)"
+              class="sergeant-rank-logo"
+              />
+              <img
+                src="./assets/icons8-graduation-cap-96.png"
+                height="65px"
+                width="auto"
+                alt="Graduation Cap"
+                class="graduation-cap-logo"
+                />
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="portfolio-container" id="portfolio">
+        <div class="portfolio-title-group">
+          <h2 class="portfolio-title"><span>✍🏾</span>My Works</h2>
+          <p class="portfolio-subtitle">
+            Click on the cards to learn more
+          </p>
+        </div>
+        <div class="portfolio-cards">
+          <div class="portfolio-card" id="carpe-vitam-quotes">
+            <div class="portfolio-card-front">
+              <h3 class="card-front-title">Carpe Vitam Quotes</h3>
+              <p class="card-front-description">
+                Online quotes board
+              </p>
+            </div>
+            <div class="portfolio-card-back">
+              <p class="card-back-description">
+                This full stack web application features one time passcode
+                authentication. <br> A user can sign in, post their favorite quote
+                and share a quote to Twitter.
+              </p>
+              <a
+                class="card-back-button"
+                href="https://www.carpevitamquotes.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View</a
+              >
+            </div>
+          </div>
+          <div class="portfolio-card" id="macquire-digital-solutions">
+            <div class="portfolio-card-front">
+              <h3 class="card-front-title">Macquire Digital Solutions</h3>
+              <p class="card-front-description">
+                Tech Agency WordPress Site
+              </p>
+            </div>
+            <div class="portfolio-card-back">
+              <p class="card-back-description">
+                This website was built with WordPress and styled with a
+                combination of Elementor and vanilla CSS. <br> It features a
+                responsive design, a Calendly plugin for scheduling, and is self
+                hosted
+              </p>
+              <a
+                class="card-back-button"
+                href="https://macquire.digital"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View</a
+              >
+            </div>
+          </div>
+          <div class="portfolio-card" id="designer-image-engine">
+            <div class="portfolio-card-front">
+              <h3 class="card-front-title">Designer Image Engine</h3>
+              <p class="card-front-description">Free image search engine</p>
+            </div>
+            <div class="portfolio-card-back">
+              <p class="card-back-description">
+                This website was built with React and styled with SASS.<br>It was
+                the first application I used to consume a REST API.
+              </p>
+              <a
+                class="card-back-button"
+                href="https://designerimageengine.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-container" id="contact">
+        <div class="contact-title-socials-group">
+          <h2 class="contact-title">
+            If you like what you see, follow or get in touch with me.<br /> You can also download my resume <a href="https://drive.google.com/file/d/1dd9GSGf8udfgQ0hlgSEsmEVsj_G6EiMp/view?usp=share_link" id="resume-link" download target="_blank">here</a>!
+          </h2>
+          <div class="social-container">
+            <a
+              class="social-item"
+              href="https://www.linkedin.com/in/dmcmillian"
+              target="_blank"
+            >
+              <img
+                src="./assets/icons8-linkedin-100.png"
+                height="65px"
+                width="auto"
+                alt="linkedin logo"
+              />
+            </a>
+            <a
+              class="social-item"
+              href="https://twitter.com/dev_with_derick"
+              target="_blank"
+            >
+            <img
+              src="./assets/icons8-twitter-squared-100.png"
+              height="65px"
+              width="auto"
+              alt="twitter logo"
+            />
+            </a>
+            <a
+              class="social-item"
+              href="mailto:derick.l.mcm@gmail.com?subject=Hey%20Derick!"
+            >
+              <img
+                src="./assets/icons8-mail-100.png"
+                height="66px"
+                width="auto"
+                alt="mail icon"
+              />
+            </a>
+          </div>
         </div>
       </section>
     </main>
+    <script src="scripts/global.js"></script>
   </body>
 </html>

@@ -2,7 +2,7 @@
 @import "../css/contact.css";
 @import "../css/portfolio.css";
 @import "../css/responsive.css";
-@import "../css/base.css";
+@import "../css/home.css";
 @import "../css/nav.css";
 @import "../css/form.css";
 
@@ -18,6 +18,7 @@
 html {
   background: var(--floral-white);
   font-family: "Source Sans Pro", sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -36,11 +37,6 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-}
-
-h1,
-h2 {
-  color: var(--eerie-black);
 }
 
 h3,
@@ -64,6 +60,12 @@ a {
   text-decoration: none;
   color: var(--white);
 }
-a:hover {
-  color: var(--eerie-black);
+
+main {
+  margin-left: 9vw;
+  width: 100%;
+}
+
+section {
+  height: 787px;
 }
