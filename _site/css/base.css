@@ -2,8 +2,6 @@ main {
   display: grid;
   place-items: center;
   width: 100%;
-  overflow-y: scroll;
-  padding: 0px 0px 0px 22px;
 }
 
 .base-container {
@@ -13,27 +11,53 @@ main {
   width: 90%;
 }
 
-.base-container img {
+.base-profile-image {
   border: 3px solid var(--black-olive);
-  height: 670px;
-  object-fit: cover;
+  height: 420px;
+  width: auto;
 }
 
 .base-title {
   font-size: 85px;
   margin: 0;
   line-height: 1.1;
+  letter-spacing: -3.5px;
 }
 
 .base-subtitle {
   color: var(--white);
-  padding: 8px;
-  font-size: 43px;
-  height: 55px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
   background: var(--black-olive);
 }
 
-.base-content {
-  padding: 23px 0 0 0;
-  font-size: 25px;
+.base-social-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.base-social-link {
+  margin: 0;
+  box-sizing: border-box;
+  height: 50px;
+  width: auto;
+}
+
+.base-social-link:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.base-social-logo {
+  height: 50px;
+  width: auto;
+}
+
+.base-social-message {
+  font-size: 18px;
 }
