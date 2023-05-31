@@ -7,7 +7,9 @@
   align-items: center;
 }
 .contact-title {
-  font-size: 40px;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
 }
 .social-container {
   display: flex;
@@ -17,4 +19,23 @@
 .social-item:hover {
   opacity: 0.3;
   transition: all 0.4s cubic-bezier(1, 0.84, 0.44, 1);
+}
+
+@media (min-width: 375px) and (max-width: 678px) {
+  .contact-container {
+    flex-direction: column;
+    margin: 0;
+  }
+  .contact-title {
+    font-size: 35px;
+  }
+  .social-container {
+    margin-top: 20px;
+  }
+  .social-item {
+    margin: 0 10px;
+  }
+  .social-item:hover {
+    opacity: 1;
+  }
 }
